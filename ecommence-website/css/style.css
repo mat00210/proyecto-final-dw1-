@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+.containercards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #eec1c1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+

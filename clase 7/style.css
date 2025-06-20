@@ -1,0 +1,50 @@
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+text-align: center;
+}
+
+.divNav { 
+    grid-area: 1 / 1 / 2 / 6; 
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.divNav:hover { 
+    grid-area: 1 / 1 / 2 / 6; 
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.divNav input , .divNav button { 
+    height: 20px;
+}
+
+.divNav div {
+    width: 15%;
+}
+
+.divFooter { 
+    grid-area: 5 / 1 / 6 / 6; 
+    background-color: bisque;
+}
+.div3 { 
+    grid-area: 2 / 1 / 5 / 2; 
+    background-color: ghostwhite; }
+.div4 { 
+    grid-area: 2 / 5 / 5 / 6; 
+    background-color: ghostwhite;}
+.divMain { 
+    grid-area: 2 / 2 / 5 / 5; 
+    padding: 20%;
+}
+
+.divMio {
+    background-color: blanchedalmond;
+    grid-area: 6 / 1 / 7 / 6;
+}
